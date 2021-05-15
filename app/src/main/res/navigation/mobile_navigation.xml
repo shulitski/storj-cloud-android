@@ -3,23 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_bucket">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="by.vodeandco.storjcloud.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/navigation_bucket"
+        android:name="by.vodeandco.storjcloud.ui.buckets.BucketsFragment"
+        android:label="@string/title_buckets"
+        tools:layout="@layout/fragment_buckets" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="by.vodeandco.storjcloud.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_shared"
+        android:name="by.vodeandco.storjcloud.ui.shared.SharedFragment"
+        android:label="@string/title_shared"
+        tools:layout="@layout/fragment_shared" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="by.vodeandco.storjcloud.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_synchronization"
+        android:name="by.vodeandco.storjcloud.ui.synchronization.SynchronizationFragment"
+        android:label="@string/title_synchronization"
+        tools:layout="@layout/fragment_synchronization" />
 </navigation>
